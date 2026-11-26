@@ -4,7 +4,12 @@
 names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 
 # ===== Each student adds her function BELOW this line =====
-
+# Written by: [jouri] (task 1)
+def count_names(names):
+    count = 0                       # variable: how many names we counted so far
+    for name in names:              # loop: go through every name in the list
+        count = count + 1
+    return count
 # Written by: Hala (task 3)
 def sort_names(names):
     return sorted(names)
